@@ -1,16 +1,15 @@
-# 🚀 Flask End-to-End Data Science Application
+# 🚀 Flask End-to-End Data Science Application Batch 1.0
 
-### 📚 Built by Data Science Batch 1.0
+### 📚 Built by Mayur Salunke
 
 ---
 
 ## 📊 Project Overview
 This Flask-based web application demonstrates an end-to-end data science pipeline, covering:
 
-- 🔍 **Data Collection & Cleaning:** EDA and Feature Engineering
-- 🧠 **Model Building:** Training and Tuning ML Models
-- 🖥️ **Web Interface:** Flask Application with User Input
-- ☁️ **Deployment:** Dockerized and Hosted using AWS/Heroku
+- 🔍 Python: Data Types, Operators, Loops, Conditional statements, Control statements, Functions and etc
+- 🧠 Flask: First Application
+
 
 ---
 
