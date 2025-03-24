@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, redirect, url_for
 app = Flask(__name__)
 
 @app.route('/')
@@ -12,6 +12,15 @@ def success(score):
 @app.route('/fail/<int:score>')
 def fail(score):
     return "He/She has failed exam due to less score and score is"+str(score)
+
+@app.route('/results/<int:marks>')
+def results(marks):
+    result=""
+    if marks < 35:
+        result = "fail"
+    else:
+        result = "success"
+    return redirect(url_for(result,score= marks))
 
 
 if __name__ == '__main__':
